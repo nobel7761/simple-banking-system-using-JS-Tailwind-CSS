@@ -1,9 +1,5 @@
-const email = document.getElementById('email_box');
-const password = document.getElementById('password_box');
-
-
 document.getElementById('login').addEventListener('click', function () {
-    if (email.value == 'admin' && password.value == 'admin') {
+    if (document.getElementById('email_box').value == 'admin' && document.getElementById('password_box').value == 'admin') {
         document.location.href = 'banking.html'
     }
     else {
